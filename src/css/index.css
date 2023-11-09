@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.App {
+	height: 100%;
+}
+
+.navy {
+	background-color: hsl(220, 20%, 18%);
+}
+.light-navy {
+  background-color: hsl(221, 21%, 24%);
+}
+.body-bg-color {
+	background-color: hsl(221, 100%, 97%);
+}
+
+.menu-animation-up {
+	animation: menu-animation-up 300ms;
+}
+.menu-animation-down {
+	animation: menu-animation-down 300ms;
+}
+
+
+
+@keyframes menu-animation-down {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes menu-animation-up {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
