@@ -10,6 +10,10 @@ body,
 	height: 100%;
 }
 
+
+.myshadow {
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+}
 .font-markazi {
 	font-family: "Markazi Text";
 }
@@ -26,6 +30,10 @@ body,
 	background-color: hsl(221, 100%, 97%);
 }
 
+.navy-border {
+	border-color: hsl(221, 21%, 24%);
+}
+
 .slide-in-left {
 	animation: slide-in-left 1.1s ease-out forwards;
 }
@@ -39,6 +47,45 @@ body,
 	animation: reveal 1.5s ease-out forwards;
 }
 
+.text-animation {
+	animation: text-switch 2s;
+}
+
+.c-transition {
+	transition: padding-bottom 0.5s;
+}
+.height-transition	 {
+	transition: height 4s ease-in
+}
+
+.faq-answer {
+	animation: text-switch 1.5s;
+}
+.shape-outside {
+	shape-outside: circle(50%);
+}
+
+.custom-height {
+	height: calc(100vh - 5rem);
+}
+@keyframes text-switch {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes heightanimation {
+	0%{
+		height: 50%;
+	}
+
+	100% {
+		height: 100%;
+	}
+}
 @keyframes reveal {
 	0% {
 		opacity: 0;
@@ -77,6 +124,24 @@ body,
 	}
 }
 
+.slide-up-2 {
+	animation: slide-up-2 0.7s ease-out forwards;
+}
+
+.object-custom {
+	object-position: 70% center;
+}
+@keyframes slide-up-2 {
+	0% {
+		opacity: 1;
+		transform: translateY(20%);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateY(0);
+	}
+}
 @keyframes slide-in-right {
 	0% {
 		opacity: 0;
@@ -91,4 +156,50 @@ body,
 	100% {
 		transform: translateX(0);
 	}
+}
+
+@keyframes logo-slider {
+ 0% {
+	transform: translateX(0);
+ }
+
+ 100% {
+	transform: translateX(-100%);
+ }
+}
+
+.logo-sliding {
+	animation: logo-slider infinite linear 30s
+}
+
+@keyframes aboutmissionvision {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-120px);
+	}
+}
+
+.amvanimation {
+	animation: aboutmissionvision 1s linear ease-out;
+}
+
+
+@keyframes aboutmissionvision2 {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(120px);
+	}
+}
+
+.amvanimation2 {
+	animation: aboutmissionvision2 1s linear ease-out;
+}
+
+
+.ss::after {
+	transform: translateY(-50%);
 }
