@@ -4,6 +4,9 @@ import { useRef, useEffect } from "react";
 
 import Wavinghand from "./imgs/waving-hand.png";
 
+
+// test
+
 import Care from "./imgs/care (1).png";
 import Book from "./imgs/book.png";
 import Inclusivity from "./imgs/collaboration.png";
