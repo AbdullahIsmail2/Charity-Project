@@ -7,6 +7,7 @@ import Wavinghand from "./imgs/waving-hand.png";
 
 // test
 // test2
+// test 3
 
 import Care from "./imgs/care (1).png";
 import Book from "./imgs/book.png";
