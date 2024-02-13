@@ -114,17 +114,17 @@ const Home = () => {
 		<main className="flex-grow pb-16">
 			<section className="w-5/5 m-auto flex flex-col  relative z-10 slide-in-left min-h-screen text-white justify-center">
 				<h1 className="font-bold text-4xl  z-10 p-3 text-center ">
-					{/* Empowering Lives, Easing Burdens: Together, We Transform Challenges */}
-					{/* into Opportunites */}
+					Empowering Lives, Easing Burdens: Together, We Transform Challenges
+					into Opportunites
 				</h1>
 				<h4 className="text-2xl z-10 p-3 text-center font-semibold">
-					{/* Bridging Gaps in Education and Livelihoods for Lasting Impact. */}
+					Bridging Gaps in Education and Livelihoods for Lasting Impact.
 				</h4>
 				<img
-					src={Cancer}
-					// className="max-w-100vw h-full min-w-full object-cover absolute -mt-40 object-custom xs:object-center"
-					className=" xl:w-[58%] lg:w-[67%] left-1/2 absolute -translate-x-1/2"
-					alt=""
+					src={Maths}
+					className="max-w-100vw h-full min-w-full object-cover absolute -mt-40 object-custom xs:object-center"
+					// className=" xl:w-[58%] lg:w-[67%] left-1/2 absolute -translate-x-1/2"
+					// alt=""
 				/>
 			</section>
 

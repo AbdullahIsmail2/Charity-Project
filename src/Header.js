@@ -19,7 +19,6 @@ const Header = () => {
 	const hamburgerClick = () => {
 		if (menuOpen) {
 			setMenuOpen(false);
-			// setSubMenuOpen(false);
 		} else setMenuOpen(true);
 	};
 
@@ -38,8 +37,9 @@ const Header = () => {
 						to={"/"}
 						className="flex items-center gap-2 text-white text-2xl font-semibold self-center mt-5 lg:mt-0"
 					>
-						<FontAwesomeIcon icon={faGift} className="text-xl" />
-						<p>Logo</p>
+						{/* <FontAwesomeIcon icon={faGift} className="text-xl" />
+						<p>Logo</p> */}
+						<h1>Somali Parents</h1>
 					</Link>
 					<FontAwesomeIcon
 						onClick={hamburgerClick}
