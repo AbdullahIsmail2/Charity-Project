@@ -1,20 +1,14 @@
 # Somali Parents Charity Website
 
-This project is a website built for the Somali Parents charity organization. It serves as a platform to inform visitors about the charity's mission, activities, and how they can get involved.
+This project is a website built for the Somali Parents charity organization. It serves as a platform to inform visitors about the charity's mission, activities, and how they can get involved. It is a responsive web application built using HTML, CSS, JavaScript, React and Tailwind CSS and consists of multiple pages navigated by React Router
 
 ## Table of Contents
 
-- [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Project Description](#project-description)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
-- [License](#license)
-
-## Overview
-
-The Somali Parents Charity Website is a responsive web application built using HTML, CSS, JavaScript, React and Tailwind CSS. It consists of multiple pages navigated by React Router 
 
 ## Features
 
@@ -36,15 +30,19 @@ The Somali Parents Charity Website is a responsive web application built using H
 
 ## Project Description
 
-The client wanted a webiste redesign so i had to 
-collaborate closely with them, to understand their needs and vision for the website. They wanted a mutli-page website with easy navigation to allow for smooth user experience. In this project i enhaced the following skills.
+## Project Description
 
- - The development process included translating the client's requirements into efficient code while adhering to modern design principles. 
-- Feedback sessions with the client were held regularly to ensure that the final product met their expectations.
-- I also conducted user testing to ensure the website is user-friendly and intuitive
-- I had to learn React Router for this project, demonstrating my adaptability and flexib abilty to work with projects outside of my skillset by being willing to learn new technolgies and features
+The project involved collaborating closely with the client to comprehend their needs and vision for the website, resulting in the development of a multi-page website with seamless navigation for an enhanced user experience. Throughout the project, I honed the following skills:
 
-The project also required working under tight deadlines to deliver the website within the specified timeframe.
+- **Translating Client Requirements**: I adeptly translated the client's specifications into efficient code, adhering to contemporary design principles to ensure the website's effectiveness and appeal.
+
+- **Client Feedback Integration**: Regular feedback sessions with the client were conducted to ensure alignment with their expectations. By incorporating their feedback iteratively, we ensured the final product met their vision and requirements.
+
+- **User Testing and Optimization**: I conducted thorough user testing to evaluate the website's usability and intuitiveness. By addressing user feedback and optimizing the design, we enhanced the overall user experience.
+
+- **Learning and Adaptability**: The project necessitated acquiring proficiency in React Router, demonstrating my adaptability and willingness to learn new technologies and features. This flexibility enabled me to expand my skill set and deliver a feature-rich website.
+
+Moreover, the project demanded efficient time management and adherence to tight deadlines to ensure timely delivery of the website within the specified timeframe. Through effective time management and prioritization, we successfully met the project milestones and delivered a high-quality product to the client.
 
 ## Getting Started
 
@@ -63,4 +61,3 @@ Contributions to the project are welcome! If you would like to contribute, pleas
 3. Make your changes and commit them with descriptive commit messages.
 4. Push your changes to your fork.
 5. Submit a pull request detailing the changes you've made.
-
