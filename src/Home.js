@@ -123,8 +123,6 @@ const Home = () => {
 				<img
 					src={Maths}
 					className="max-w-100vw h-full min-w-full object-cover absolute -mt-40 object-custom xs:object-center"
-					// className=" xl:w-[58%] lg:w-[67%] left-1/2 absolute -translate-x-1/2"
-					// alt=""
 				/>
 			</section>
 

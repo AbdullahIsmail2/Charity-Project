@@ -15,9 +15,6 @@ const Contact = () => {
 			<div
 				className="w-11/12  mx-auto my-8 mder:my-0 flex flex-col mder:flex-row mder:rounded-2xl myshadow relative max-w-6xl max-height[90%]
 			
-				
-
-			
 			before:h-[30px] before:w-[30px] before:hidden mder:before:bg-[#252B37] before:absolute before:right-[25%] before:-translate-x-[25%] before:top-1/2 before:-translate-y-1/mder:before:left-[50%] mder:before:-translate-x-1/2 mder:before:top-[52px] before:rotate-45"
 			>
 				<section className="flex flex-col gap-4 p-12 mder:w-1/2 rounded-r-2xl rounded-l-2xl">
@@ -39,11 +36,11 @@ const Contact = () => {
 						</div>
 						<div className="flex gap-4 items-center ">
 							<FontAwesomeIcon icon={faEnvelope} className="text-2xl " />
-							<p>info@hfasvo.org</p>
+							<p>info@hfspa.org</p>
 						</div>
 						<div className="flex gap-4 items-center ">
 							<FontAwesomeIcon icon={faPhone} className="text-2xl" />
-							<p>0800 001 6282</p>
+							<p>0207 101 3426</p>
 						</div>
 					</section>
 					<section className="text-gray-500 italic">
